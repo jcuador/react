@@ -71,7 +71,7 @@ export default function Login() {
     <ThemeProvider theme={defaultTheme}>
     <Grid container component="main" sx={{ height: '100vh' }}>
       <CssBaseline />
-      <Grid item xs={12} sm={8} md={12} component={Paper} elevation={6} backgroundColor= '#205c9c' square>
+      <Grid item xs={12} sm={12} md={12} component={Paper} elevation={6} backgroundColor="#205c9c" square>
         <Box
           sx={{
             my: 8,

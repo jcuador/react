@@ -44,7 +44,7 @@ function App() {
           <Route path='/signup' element={<SignUp/>} />
           <Route path='/home' element={<Home/>} />
           <Route path='/admin' element={<div><Admin/></div>} />
-          <Route path='/adminComidas/:day' element={<div><NavbarAdmin/><AdminComidas/><AdminRecuento/></div>} />
+          <Route path='/adminComidas/:day' element={<div><NavbarAdmin/><AdminComidas/></div>} />
           <Route path='/adminRecuento/:day' element={<div><NavbarAdmin/><AdminRecuento/></div>} />
           <Route path='/adminResidentes' element={<div><NavbarAdmin/><AdminResidentes/></div>} />
           <Route path='/comidas' element={<div><Navbar/><Comidas/> </div>} />

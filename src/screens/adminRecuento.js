@@ -88,10 +88,10 @@ const AdminRecuento = () => {
     const [filterColumn, setFilterColumn] = useState('');
   
     return (
-      <div className="container customTable" style={{ display: 'flex'}}>
+      <div className="container customTable">
         <div>
         <h2 className='foodName'>Desayunos</h2>
-        <table className="table mt-4">
+        <table className="table mt-4 specTable">
           <thead>
             <tr>
                 <th>Tempranos</th>
@@ -112,7 +112,7 @@ const AdminRecuento = () => {
 
           <div>
         <h2 className='foodName'>Comidas</h2>
-        <table className="table mt-4">
+        <table className="table mt-4 specTable">
           <thead>
             <tr>
                 <th>Tempranas</th>
@@ -135,7 +135,7 @@ const AdminRecuento = () => {
 
             <div>
         <h2 className='foodName'>Cenas</h2>
-        <table className="table mt-4">
+        <table className="table mt-4 specTable">
           <thead>
             <tr>
                 <th>Normales</th>

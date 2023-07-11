@@ -25,24 +25,27 @@
   
 
   .customTable {
-    display: grid;
-    
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+
   
     color: black;
     
-    justify-content: space-evenly;
-    justify-items: center;
+    justify-items: left;
     align-content: space-evenly;
-    align-items: center;
+    align-items: left;
     margin-top: 20px;
   }
 
   .foodName {
     margin-top: 15px;
     margin-bottom: 1px;
+  }
+
+  .specTable {
+    margin-right: 100px;
+    border-right: 1px solid black;
   }
 
     html {

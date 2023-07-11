@@ -182,6 +182,7 @@ function Comidas() {
         if(e.target.value == actuals[i][j] || actuals[i][j] == 0) {e.target.checked = false; actuals[i][j]=-1;}
     }    
 
+
     return (
         <div className='container customedFood'>
                 <form onSubmit={update}>
@@ -266,17 +267,116 @@ function Comidas() {
                 </form>
           </div>
       );
-    
-      
-      
-      
-      
-      
-      
 
-}
+    }
 
 export default Comidas;
+
+
+
+/*
+return (
+        <div className='container customedFood'>
+                <form onSubmit={update}>
+            {vector.map((value, i) => {
+                //Devuelve día por día
+                //Para cada día habrá que crear un vector que contenga el turno de desayuno, comida y cena
+                var turnos = [value.Desayuno, value.Comida, value.Cena];
+                var dia = new Date(value.Dia).getDay();
+                var ndia = new Date(value.Dia).getDate();
+                var nmes = new Date(value.Dia).getMonth();
+                var nombresS = ['DOMINGO', 'LUNES', 'MARTES', 'MIÉRCOLES', 'JUEVES', 'VIERNES', 'SÁBADO'];
+                var nombresM = ['ENERO', 'FEBRERO', 'MARZO', 'ABRIL', 'MAYO', 'JUNIO', 'JULIO', 'AGOSTO', 'SEPTIEMBRE', 'OCTUBRE', 'NOVIEMBRE', 'DICIEMBRE'];
+                return (
+                    <div>
+                        <table className='table'>
+                            <tr><th scope='col' colspan='4'>{nombresS[dia]}, {ndia} de {nombresM[nmes]}</th></tr>
+                    {turnos.map((turno, j) => {
+                        //Devuelve turno por turno
+                        //Para cada turno habrá que hacer un form con 3 radio buttons con valores 1, 2 y 3 (depende) y labels Temprano, Normal, Tarde
+                        //El valor escogido por defecto será el que indique la variable turno
+                        //Se debe poder deseleccionar
+                        //Cada botón tiene que tener un id único. Para que no se repitan, tendrán un id compuesto por 'btn' + 'i' + 'j'
+                        //Habrá que configurar el formulario de tal modo que cuando se haga click en enviar todos los formularios presenten se envíen
+                        //¡¡Adelante!!
+                        console.log(turno);
+                        //Para cada iteración los ids cambian
+                        var temprano = "temp" + "_" + i + "_" + j;
+                        var normal = "norm" + "_" + i + "_" + j;
+                        var tarde = "tarde" + "_" + i + "_" + j;
+                        var group = "group" + "_" + i + "_" + j;
+                        actuals[i] = [0,0,0];
+                        return (
+                            <div>
+                                <tr>
+                            {j == 0 ? <td>Desayuno</td> : (<></>)}
+                            {j == 1 ? <td>Comida</td> : (<></>)}
+                            {j == 2 ? <td>Cena</td> : <></>}
+    
+                            <fieldset id={group} onChange={onChangeValue(i,j)}>
+                                <td>
+                                {j == 2 ? 
+                                <p id='txt'>Tempranoooo</p> : 
+                                <>
+                                {turno == 1 ? 
+                                    (<input type="radio" value='1' name={group} id={temprano} onClick={onClickingDefault(i,j)} defaultChecked/>)
+                                    : (<input type="radio" value='1' name={group} id={temprano} onClick={onClicking(i,j)} />)
+                                }
+                                <label for={temprano}>Temprano</label>
+                                </>}
+                                </td>
+        
+                                <td>
+                                {turno == 2 ? 
+                                    (<input type="radio" value='2' name={group} id={normal} onClick={onClickingDefault(i,j)} defaultChecked/>)
+                                    : (<input type="radio" value='2' name={group} id={normal} onClick={onClicking(i,j)}/>)
+                                }
+                                <label for={normal}>Normal</label>
+                                </td>
+    
+                                <td>
+                                {j == 0 ?
+                                <p id='txt'>Tardeeee</p> :
+                                <>
+                                {turno == 3 ? 
+                                    (<input type="radio" value='3' name={group} id={tarde} onClick={onClickingDefault(i,j)} defaultChecked/>)
+                                    : (<input type="radio" value='3' name={group} id={tarde} onClick={onClicking(i,j)}/>)
+                                }
+                                 <label for={tarde}>Tarde</label>
+                                </>
+                                }
+                                </td>                            
+                                
+                            </fieldset>
+                            </tr>
+                            </div>
+                        )})}
+                        </table>
+                        </div>
+                )})}
+                    <button type="submit" id='subBtn' value="Submit">Enviar</button>
+                    
+                </form>
+          </div>
+      );
+}
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
