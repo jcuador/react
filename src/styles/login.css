@@ -1,0 +1,21 @@
+
+.textfield__label {
+    color: black !important;
+    opacity: 55%;
+}
+
+.textfield__border {
+    backgroundColor: orange !important;
+    border: '10px solid #001d3d' !important;
+}
+
+img { 
+    min-height: 120px;
+    min-width: 120px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: aliceblue;
+    color: black;
+}

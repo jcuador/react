@@ -1,0 +1,295 @@
+<mxfile host="65bd71144e">
+    <diagram id="CU0QtHKaXMDzZQeA0BM1" name="Page-1">
+        <mxGraphModel dx="1588" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="36" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="95" width="600" height="715" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="765" y="95" width="270" height="715" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="1590" y="95" width="520" height="715" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="1050" y="95" width="520" height="715" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Parte SERVER&lt;br style=&quot;font-size: 15px;&quot;&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;labelBorderColor=none;labelBackgroundColor=none;fontSize=15;strokeWidth=1;spacingLeft=0;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="50" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="modelo_comidas.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;Model" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="120" width="200" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="modelo_comidas.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;ModelUser" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="260" width="200" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Controller.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;getAllUsers()&lt;br&gt;getUser()&lt;br&gt;createUser()&lt;br&gt;updateUser()&lt;br&gt;removeUser()&lt;br&gt;loginUser()&lt;br&gt;&lt;br&gt;getAllFoods()&lt;br&gt;getFood()&lt;br&gt;getDaily()&lt;br&gt;getDailyUser()&lt;br&gt;getSpecificFood()&lt;br&gt;createFood()&lt;br&gt;updateFood()&lt;br&gt;removeFood()" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="400" width="200" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="db.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;db" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="120" width="200" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="routes.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;get()&lt;br&gt;put()&lt;br&gt;post()&lt;br&gt;delete()" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="270" width="200" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="app.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;app&lt;br&gt;____________________&lt;br&gt;&lt;br&gt;use()&lt;br&gt;get()&lt;br&gt;listen()" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="470" width="200" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Parte CLIENT" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;labelBorderColor=none;labelBackgroundColor=none;fontSize=15;strokeWidth=1;spacingLeft=0;" parent="1" vertex="1">
+                    <mxGeometry x="1060" y="50" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="index.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;root&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;render()" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="120" width="200" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="App.js" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="310" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="createFood.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;URI&lt;br&gt;User&lt;br&gt;Day&lt;br&gt;Food&lt;br&gt;Turn&lt;br&gt;today&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;store(Event event)&lt;br&gt;inputByDate(int number)&lt;br&gt;generate()&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1090" y="120" width="200" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="getFoods.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;URI&lt;br&gt;vector&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;getDayFoods()" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1350" y="460" width="200" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="getFoodsAdmin.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;URI&lt;br&gt;vector&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;getDayFoods()" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1090" y="440" width="200" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="updateFood.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;URI&lt;br&gt;Day&lt;br&gt;vector&lt;br&gt;repeat&lt;br&gt;cookies&lt;br&gt;json&lt;br&gt;myjson&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;useEffect()&lt;br&gt;getData(int number)&lt;br&gt;update(Event event)" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="1350" y="120" width="200" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="createUser.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;URI&lt;br&gt;Usuario&lt;br&gt;Contraseña&lt;br&gt;Nombre&lt;br&gt;Email&lt;br&gt;Habitación&lt;br&gt;navigate&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;store(Event event)" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="1610" y="120" width="200" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="loginUser.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;URI&lt;br&gt;Usuario&lt;br&gt;Contraseña&lt;br&gt;navigate&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;login(Event event)" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="1610" y="420" width="200" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="updateUser.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;URI&lt;br&gt;Contraseña&lt;br&gt;Email&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;store(Event event)" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="1870" y="120" width="200" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;&lt;b&gt;comidas REST&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1165" y="710" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;&lt;b&gt;usuarios REST&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1705" y="710" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="2150" y="95" width="1120" height="715" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="home.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;navigate&lt;br&gt;cookies&lt;br&gt;json&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;navigateTo(String url)" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="2190" y="120" width="200" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="comidas.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;URI&lt;br&gt;Day&lt;br&gt;vector&lt;br&gt;navigate&lt;br&gt;repeat&lt;br&gt;cookies&lt;br&gt;json&lt;br&gt;myjson&lt;br&gt;actuals&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;useEffect()&lt;br&gt;getData(int number)&lt;br&gt;update(Event event)&lt;br&gt;onChangeValue(int i, int j,&amp;nbsp;Event event)&lt;br&gt;onClicking(int i, int j, Event event)&lt;br&gt;onClickingDefault(int i, int j, Event event)" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="2190" y="330" width="200" height="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="adminHome.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;navigate&lt;br&gt;cookies&lt;br&gt;json&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;navigateTo(String url)" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="2430" y="120" width="200" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="login.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;URI&lt;br&gt;Usuario&lt;br&gt;Contraseña&lt;br&gt;navigate&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;login(Event event)" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="2430" y="330" width="200" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="logout.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;cookies&lt;br&gt;navigate&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;useEffect()" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="2430" y="560" width="200" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="navbar.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;isNavCollapsed&lt;br&gt;cookies&lt;br&gt;json&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;handleNavCollapse()" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="2670" y="120" width="200" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="profile.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;URI&lt;br&gt;URI2&lt;br&gt;Usuario&lt;br&gt;Contraseña&lt;br&gt;Email&lt;br&gt;Habitación&lt;br&gt;navigate&lt;br&gt;cookies&lt;br&gt;json&lt;br&gt;myjson&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;useEffect()&lt;br&gt;getData()&lt;br&gt;updateProfile(Event event)" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="2670" y="330" width="200" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="semana.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;Day&lt;br&gt;vector&lt;br&gt;desayunos&lt;br&gt;comidas&lt;br&gt;cenas&lt;br&gt;repeat&lt;br&gt;cookies&lt;br&gt;json&lt;br&gt;myjson&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;useEffect()&lt;br&gt;getData()" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="2920" y="120" width="200" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="signup.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;Usuario&lt;br&gt;Contraseña&lt;br&gt;Email&lt;br&gt;Nombre&lt;br&gt;Habitación&lt;br&gt;navigate&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;signup(Event event)" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="2920" y="460" width="200" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;&lt;b&gt;screens&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="2685" y="760" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="950" width="1880" height="890" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.012;entryY=0.372;entryDx=0;entryDy=0;fontSize=27;entryPerimeter=0;" edge="1" parent="1" source="38" target="43">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="define" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=27;" vertex="1" connectable="0" parent="44">
+                    <mxGeometry x="0.3024" y="2" relative="1" as="geometry">
+                        <mxPoint x="-16" y="-11" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="modelo_comidas.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;- Model: db" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="1080" width="200" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=27;" edge="1" parent="1" source="39" target="43">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="define" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=27;" vertex="1" connectable="0" parent="45">
+                    <mxGeometry x="-0.2753" y="-1" relative="1" as="geometry">
+                        <mxPoint x="21" y="-17" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="modelo_usuarios.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;- ModelUser: db" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="1290" width="200" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=27;" edge="1" parent="1" source="40" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="importa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=27;" vertex="1" connectable="0" parent="41">
+                    <mxGeometry x="0.3085" y="-5" relative="1" as="geometry">
+                        <mxPoint x="-31" y="16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=27;" edge="1" parent="1" source="40" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="importa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=27;" vertex="1" connectable="0" parent="42">
+                    <mxGeometry x="0.2082" y="4" relative="1" as="geometry">
+                        <mxPoint x="-19" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=27;" edge="1" parent="1" source="40" target="53">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="db.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;- db: Sequelize" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="1210" width="200" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=27;" edge="1" parent="1" source="43" target="50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="enruta" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=27;" vertex="1" connectable="0" parent="51">
+                    <mxGeometry x="0.2052" y="2" relative="1" as="geometry">
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="Controller.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;+ getAllUsers(): json&lt;br&gt;+ getUser(): json&lt;br&gt;+ createUser(): json&lt;br&gt;+ updateUser(): json&lt;br&gt;+ removeUser(): json&lt;br&gt;+ loginUser(): json&lt;br&gt;&lt;br&gt;+ getAllFoods(): json&lt;br&gt;+ getFood(): json&lt;br&gt;+ getDaily(): json&lt;br&gt;+ getDailyUser(): json&lt;br&gt;+ getSpecificFood(): json&lt;br&gt;+ createFood(): json&lt;br&gt;+ updateFood(): json&lt;br&gt;+ removeFood(): json" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="920" y="1020" width="200" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=27;" edge="1" parent="1" source="50" target="53">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="routes.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;+ get(): json&lt;br&gt;+ put(): json&lt;br&gt;+ post(): json&lt;br&gt;+ delete(): json" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="1330" y="1140" width="200" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="app.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;- app: Express" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="1500" width="200" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="1990" y="950" width="1880" height="1160" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=27;" edge="1" parent="1" source="59" target="60">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="importa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=27;" vertex="1" connectable="0" parent="61">
+                    <mxGeometry x="-0.2062" y="-2" relative="1" as="geometry">
+                        <mxPoint x="-133" y="-5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="App.js" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="2450" y="1520" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="index.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;- root: ReactDOM" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="2040" y="1490" width="200" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=27;" edge="1" parent="1" source="63">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2660" y="1550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="home.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;- navigate: useNavigate()&lt;br&gt;- cookies: Cookies&lt;br&gt;- json: Json&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;+ navigateTo(String url): void" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="2600" y="990" width="200" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=27;" edge="1" parent="1" source="64" target="59">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="comidas.js&lt;br&gt;____________________________________&lt;br&gt;&lt;br&gt;- URI: String&lt;br&gt;- Day: Date&lt;br&gt;- vector: Array&lt;br&gt;- navigate: useNavigate()&lt;br&gt;- repeat: Int&lt;br&gt;- cookies: Cookies&lt;br&gt;- json: json&lt;br&gt;- myjson: Object&lt;br&gt;- actuals: Array&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;+ useEffect(): void&lt;br&gt;+ getData(int number): void&lt;br&gt;+ update(Event event): void&lt;br&gt;+ onChangeValue(int i, int j,&amp;nbsp;Event event): void&lt;br&gt;+ onClicking(int i, int j, Event event): void&lt;br&gt;+ onClickingDefault(int i, int j, Event event): void" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="3550" y="1450" width="300" height="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=27;" edge="1" parent="1" source="65" target="59">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="adminHome.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;- navigate: useNavigate()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- cookies: Cookies&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- json: Json&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;_________________&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ navigateTo(String url): void" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="2850" y="1000" width="200" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fontSize=27;" edge="1" parent="1" source="66">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2660" y="1560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="login.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;- URI: String&lt;br&gt;- Usuario: String&lt;br&gt;- Contraseña: String&lt;br&gt;- navigate: useNavigate()&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;+ login(Event event): void" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="2760" y="1865" width="200" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=27;" edge="1" parent="1" source="67" target="59">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="logout.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;- cookies: Cookies&lt;br&gt;- navigate: useNavigate()&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;+ useEffect(): void" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="2500" y="1880" width="200" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fontSize=27;" edge="1" parent="1" source="68">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2650" y="1550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="navbar.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;- isNavCollapsed: Boolean&lt;br&gt;- cookies: Cookies&lt;br&gt;- json: Json&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;+ handleNavCollapse(): void" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="3010" y="1830" width="200" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;fontSize=27;startArrow=none;" edge="1" parent="1" source="82">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2650" y="1550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="profile.js&lt;br&gt;______________________________&lt;br&gt;&lt;br&gt;- URI: String&lt;br&gt;- URI2: String&lt;br&gt;- Usuario: String&lt;br&gt;- Contraseña: String&lt;br&gt;- Email: String&lt;br&gt;- Habitación: Int&lt;br&gt;- navigate: useNavigate()&lt;br&gt;- cookies: Cookies&lt;br&gt;- json: Json&lt;br&gt;- myjson: Object&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;+ useEffect(): void&lt;br&gt;+ getData(): void&lt;br&gt;+ updateProfile(Event event): void" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="3260" y="1710" width="250" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=27;" edge="1" parent="1" source="70" target="59">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="renderiza" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=27;" vertex="1" connectable="0" parent="78">
+                    <mxGeometry x="0.6402" y="4" relative="1" as="geometry">
+                        <mxPoint x="-18" y="41" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="semana.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;- Day: Date&lt;br&gt;- vector: Array&lt;br&gt;- desayunos: Array&lt;br&gt;- comidas: Array&lt;br&gt;- cenas: Array&lt;br&gt;- repeat: Int&lt;br&gt;- cookies: Cookies&lt;br&gt;- json: Json&lt;br&gt;- myjson: Object&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;+ useEffect(): void&lt;br&gt;+ getData(): void" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="3390" y="1080" width="200" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fontSize=27;" edge="1" parent="1" source="71">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2660" y="1540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="signup.js&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;- Usuario: String&lt;br&gt;- Contraseña: String&lt;br&gt;- Email: String&lt;br&gt;- Nombre: String&lt;br&gt;- Habitación: Int&lt;br&gt;- navigate: useNavigate()&lt;br&gt;_________________&lt;br&gt;&lt;br&gt;+ signup(Event event): void" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="3130" y="1000" width="200" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;fontSize=27;endArrow=none;" edge="1" parent="1" source="69" target="82">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="3270" y="1797.5" as="sourcePoint"/>
+                        <mxPoint x="2650" y="1550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="82" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=27;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="2640" y="1520" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="&lt;font style=&quot;font-size: 65px;&quot;&gt;Nombre de la Clase&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;ATRIBUTOS&lt;br&gt;____________________&lt;br&gt;&lt;br&gt;MÉTODOS&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="2220" width="870" height="630" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="1580" y="2230" width="1880" height="1160" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" style="html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=65;shape=link;width=-1.25;" edge="1" parent="1" source="88" target="89">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="Comida&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;- id: Integer&lt;br&gt;- Día: Date&lt;br&gt;- Comida: Integer&lt;br&gt;- Turno: Integer&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;+ getAllFoods()&lt;br&gt;+ getFood()&lt;br&gt;+ getDaily()&lt;br&gt;+ getDailyUser()&lt;br&gt;+ getSpecificFood()&lt;br&gt;+ createFood()&lt;br&gt;+ updateFood()&lt;br&gt;+ removeFood()" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="2160" y="2340" width="200" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="Usuario&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;- id: Integer&lt;br&gt;- Contraseña: String&lt;br&gt;- Email: String&lt;br&gt;- Nombre: String&lt;br&gt;- Habitación: Integer&amp;nbsp;&lt;br&gt;________________________&lt;br&gt;&lt;br&gt;+ getAllUsers()&lt;br&gt;+ getUser()&lt;br&gt;+ createUser()&lt;br&gt;+ updateUser()&lt;br&gt;+ removeUser()&lt;br&gt;+ loginUser()" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="1780" y="2360" width="200" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;*&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=65;" vertex="1" parent="1">
+                    <mxGeometry x="1980" y="2477" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;1&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=65;" vertex="1" parent="1">
+                    <mxGeometry x="2090" y="2470" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,10 @@
+.labels label {
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 3px solid;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: transparent;
+}
+

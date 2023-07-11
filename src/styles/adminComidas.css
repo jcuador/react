@@ -1,0 +1,96 @@
+.customed {
+    display: grid;
+  
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  
+    background: #205c9c;
+    color: white;
+    
+    justify-content: space-evenly;
+    justify-items: left;
+    align-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .customTable2 tbody tr:nth-child(even) {
+    --bs-table-bg: #f2f2f2; /* Color gris para filas pares */
+  }
+  
+  .customTable2 tbody tr:nth-child(odd) {
+    --bs-table-bg: #ffffff; /* Color blanco para filas impares */
+  }
+  
+
+  .customTable {
+    display: grid;
+    
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  
+    color: black;
+    
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .foodName {
+    margin-top: 15px;
+    margin-bottom: 1px;
+  }
+
+    html {
+        background-color: white;
+  }
+
+  .title {
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .row {
+    justify-content: flex-start;
+    margin-left: 15px;
+  }
+
+  h2 {
+    text-align: left;
+  }
+
+  .adminHome .btn {
+    margin-right: 10px;
+    margin-bottom: 50px;
+    color: #205c9c;
+    background-color: white;
+  }
+
+  .adminHome {
+    background-color: #205c9c;
+  }
+
+  #logout{
+    margin-right: 10px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: red;
+  }
+
+  #logout:hover{
+    margin-right: 10px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: rgb(186, 1, 1);
+  }
+
+  .adminHome .btn:hover {
+    margin-right: 10px;
+    margin-bottom: 50px;
+    color: #205c9c;
+    background-color: rgb(241, 241, 241);
+  }
