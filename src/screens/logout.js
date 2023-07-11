@@ -28,8 +28,8 @@ function Logout() {
   const navigate = useNavigate();
 
   //Para eliminar la cookie al cerrar sesión
-  cookies.remove('usuario', { path: '/' , domain: "localhost"});
-  cookies.remove('contraseña', { path: '/' , domain: "localhost"});
+  cookies.remove('usuario', { path: '/' , domain: "100.27.19.134"});
+  cookies.remove('contraseña', { path: '/' , domain: "100.27.19.134"});
   console.log('Funciona?')
 
   useEffect(() => {
