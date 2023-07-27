@@ -1,0 +1,26 @@
+.bodyhoja {
+    width: 195mm;
+    height: 210mm;
+  }
+  
+  /* Ajustar el tamaño de fuente para imprimir */
+    .hoja {
+    font-size: 8pt;
+  }
+  
+  /* Ajustar el ancho de las celdas según el contenido */
+  .hoja td, .hoja th {
+    border: 1px solid #000; /* Agregar línea divisoria entre cada celda */
+    padding: 0.00001rem 0.2rem !important;
+    text-transform: uppercase;
+  }
+
+  /* Estilos para filas pares */
+  .hoja tbody tr:nth-of-type(even) {
+    background-color: #f2f2f2;
+  }
+
+  /* Estilos para filas impares */
+  .hoja tbody tr:nth-of-type(odd) {
+    background-color: #fff;
+  }

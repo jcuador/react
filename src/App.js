@@ -26,6 +26,7 @@ import AdminResidentes from './screens/adminResidentes';
 import NavbarAdmin from './screens/navbarAdmin';
 import AdminRecuento from './screens/adminRecuento';
 import Horarios from './screens/horarios';
+import AdminHoja from './screens/adminHoja';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
           <Route path='/home' element={<Home/>} />
           <Route path='/admin' element={<div><Admin/></div>} />
           <Route path='/adminComidas/:day' element={<div><NavbarAdmin/><AdminComidas/></div>} />
+          <Route path='/adminHoja/:day' element={<AdminHoja/>} />
           <Route path='/adminRecuento/:day' element={<div><NavbarAdmin/><AdminRecuento/></div>} />
           <Route path='/adminResidentes' element={<div><NavbarAdmin/><AdminResidentes/></div>} />
           <Route path='/comidas' element={<div><Navbar/><Comidas/> </div>} />
