@@ -17,9 +17,10 @@ function Admin() {
 
   //Para convertir la cookie en JSON
   var json = JSON.stringify(cookies.get('usuario'));
+  var json2 = JSON.stringify(cookies.get('contraseña'));
 
   //Verificamos que el usuario esté registrado
-  if(json==null) {
+  if(json==null || json !== 'admin' || json2 !== 'aquino') {
       window.location.href='/login';
   } else {
 

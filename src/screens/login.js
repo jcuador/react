@@ -39,7 +39,11 @@ export default function Login() {
               const cookie = new Cookies();
               cookie.set('usuario', {Usuario}, {path: '/', expires: 0});
               cookie.set('contraseña', {Contraseña}, {path: '/', expires: 0});
-              navigate('/home');
+              if({Usuario} == 'admin' && {Contraseña} == 'aquino') {
+                navigate('/admin');
+              } else {
+                navigate('/home');
+              }
               console.log(res.data);
           }
         } else {

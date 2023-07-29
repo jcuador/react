@@ -42,12 +42,13 @@ function App() {
           <Route path='/comidas/daily' element={<CompGetDaily/>} />
           <Route path='/comidas/daily/admin' element={<CompGetDailyAdmin/>} />
           <Route path='/login' element={<Login/>} />
+          <Route path='/' element={<Login/>} />
           <Route path='/signup' element={<SignUp/>} />
           <Route path='/home' element={<Home/>} />
           <Route path='/admin' element={<div><Admin/></div>} />
           <Route path='/adminComidas/:day' element={<div><NavbarAdmin/><AdminComidas/></div>} />
           <Route path='/adminHoja/:day' element={<AdminHoja/>} />
-          <Route path='/adminRecuento/:day' element={<div><NavbarAdmin/><AdminRecuento/></div>} />
+          <Route path='/adminRecuento/:day' element={<div><NavbarAdmin/><AdminHoja/></div>} />
           <Route path='/adminResidentes' element={<div><NavbarAdmin/><AdminResidentes/></div>} />
           <Route path='/comidas' element={<div><Navbar/><Comidas/> </div>} />
           <Route path='/semana' element={<div><Navbar/> <Semana/> </div>} />
