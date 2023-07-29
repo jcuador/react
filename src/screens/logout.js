@@ -28,8 +28,8 @@ function Logout() {
   const navigate = useNavigate();
 
   //Para eliminar la cookie al cerrar sesión
-  cookies.remove('usuario', { path: '/' , domain: "100.27.19.134"});
-  cookies.remove('contraseña', { path: '/' , domain: "100.27.19.134"});
+  cookies.remove('usuario', { path: '/' , domain: "comidasalbalat.es"});
+  cookies.remove('contraseña', { path: '/' , domain: "comidasalbalat.es"});
   console.log('Funciona?')
 
   useEffect(() => {
