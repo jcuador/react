@@ -34,13 +34,14 @@ export default function Login() {
         if(Usuario !== "" && Contraseña !== "") {
           const res = await axios.post(URI + Usuario, {Usuario: Usuario, Contraseña: Contraseña});
           if(res.data.length == 0) {
-            if({Usuario} == 'admin' && {Contraseña} == 'aquino') {
+            if(Usuario == 'admin' && Contraseña == 'aquino') {
               const cookie = new Cookies();
               cookie.set('usuario', {Usuario}, {path: '/', expires: 0});
               cookie.set('contraseña', {Contraseña}, {path: '/', expires: 0});
               navigate('/admin');
             } else {
               alert("El usuario/contraseña no existen");
+              console.log("El usuario y contraseña son:" + Usuario + "," + Contraseña);
             }
           } 
           

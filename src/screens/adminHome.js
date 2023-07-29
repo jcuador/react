@@ -16,14 +16,13 @@ function Admin() {
   const cookies = new Cookies();
 
   //Para convertir la cookie en JSON
-  var json = JSON.stringify(cookies.get('usuario'));
-  var json2 = JSON.stringify(cookies.get('contraseña'));
+  var json = cookies.get('usuario')['Usuario'];
+  var json2 = cookies.get('contraseña')['Contraseña'];
 
   //Verificamos que el usuario esté registrado
-  if(json==null || json !== 'admin' || json2 !== 'aquino') {
+  if(json==null) {
       window.location.href='/login';
-  } else {
-
+  } else if (json == 'admin' && json2 == 'aquino') {
     //Necesitamos obtener la fecha de los 7 días desde hoy
     //El formato será dia xx-mes
     Date.prototype.addDays = function(days) {
